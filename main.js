@@ -50,7 +50,12 @@ button.addEventListener('click', (e) => {
     })
     
     const data = await res.json()
-    console.log(data);
-    result.textContent = data.translated_text.ar
+
+    if(data.translated_text.ar === from.value){
+        error.textContent = `So'zda hatolik bor`
+    } else {
+        error.textContent = ''
+        result.textContent = data.translated_text.ar
+    }
 })()
 })
