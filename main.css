@@ -1,0 +1,42 @@
+body{
+    /* background-color: rgba(0, 86, 63, 0.6); */
+    background-color: #468fa2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.from{
+    width: 230px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button{
+    border: none;
+}
+
+.text_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    color: black;
+    font-size: 20px;
+}
