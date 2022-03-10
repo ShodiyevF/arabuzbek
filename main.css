@@ -32,6 +32,7 @@ body{
 
 .from{
     width: 230px;
+    padding: 5px 20px;
     background-color: white;
     border: none;
     border-radius: 3px;
@@ -40,6 +41,8 @@ body{
 }
 
 button{
+    width: 40px;
+    height: 25px;
     border: none;
 }
 
